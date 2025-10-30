@@ -199,12 +199,3 @@
       main();
     }
   })();
-
-
-  cd /path/to/your/extension
-git init
-git add .
-git commit -m "Initial commit: Adminer Columns → JSON (Editor)"
-git branch -M main
-git remote add origin git@github.com:<your-user>/<repo-name>.git
-git push -u origin main
