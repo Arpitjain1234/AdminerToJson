@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Adminer Columns → JSON (Editor)",
+  "version": "1.1.0",
+  "description": "Extract Adminer table columns, show editable JSON, and copy.",
+  "permissions": [],
+  "host_permissions": ["https://datahub.practodev.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://datahub.practodev.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
